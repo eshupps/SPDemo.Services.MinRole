@@ -12,7 +12,7 @@ namespace SPDemo.Services.MinRole.Utilities
     {
         public static int GetTimerJobProgress(int current, int count)
         {
-            double progress;
+            double progress; 
 
             double percent = Math.Min(100.0, current * 100 / count);
 
